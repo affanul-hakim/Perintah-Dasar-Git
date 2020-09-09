@@ -12,3 +12,4 @@ Perintah Untuk GIT
 7. git config --global user.email "affanul@gmail.com"
 8. git commit (enter) langsung masuk ke kode editor sesuai pilihan
 9. git commit -m "menambah file index.html keterangan" 
+10. git add . (untuk masuk file ke staging area)
