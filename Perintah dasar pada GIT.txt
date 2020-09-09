@@ -1,0 +1,14 @@
+Perintah Untuk GIT
+1. masuk pada direktori
+2. git init 
+   - (untuk merubah folder menjadi repo GIT menjadi master)
+3. git status
+   - Untuk melihat file status yang belum commit, ada file yg belum di treact
+4. git add (nama file)
+   - untuk menambah ke staging area siap di commit
+5. git commit
+   - untuk pertama commit belum deteksi kommit
+6. git config --global user.name "affanul hakim"
+7. git config --global user.email "affanul@gmail.com"
+8. git commit (enter) langsung masuk ke kode editor sesuai pilihan
+9. git commit -m "menambah file index.html keterangan" 
