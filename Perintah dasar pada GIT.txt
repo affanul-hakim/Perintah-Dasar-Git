@@ -11,5 +11,8 @@ Perintah Untuk GIT
 6. git config --global user.name "affanul hakim"
 7. git config --global user.email "affanul@gmail.com"
 8. git commit (enter) langsung masuk ke kode editor sesuai pilihan
-9. git commit -m "menambah file index.html keterangan" 
+9. git commit -m "menambah file index.html keterangan"  (untuk commit file ke staging area)
 10. git add . (untuk masuk file ke staging area)
+11. git log (untuk melihat log file perubahan)
+12. git log (-- nama file)
+13. git checkout (5 digit commit hash) -- (nama file)
