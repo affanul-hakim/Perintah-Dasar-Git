@@ -5,7 +5,7 @@ git config --global user.email "alamat email"
 
 git (melihat apakah git sudah aktif)
 git help (manual git)
-git init (membuat file repo, sesuai alamat folder repo)
+git init (membuat file repo local, sesuai alamat folder repo)
 git status (untuk melihat status file git)
 git add . (menambah file ke staging area, yang belum tracking)
 git commit -m "keterangan kommit" (untuk kommit).
