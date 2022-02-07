@@ -1,18 +1,41 @@
-Perintah Untuk GIT
-1. masuk pada direktori
-2. git init 
-   - (untuk merubah folder menjadi repo GIT menjadi master)
-3. git status
-   - Untuk melihat file status yang belum commit, ada file yg belum di treact
-4. git add (nama file)
-   - untuk menambah ke staging area siap di commit
-5. git commit
-   - untuk pertama commit belum deteksi kommit
-6. git config --global user.name "affanul hakim"
-7. git config --global user.email "affanul@gmail.com"
-8. git commit (enter) langsung masuk ke kode editor sesuai pilihan
-9. git commit -m "menambah file index.html keterangan"  (untuk commit file ke staging area)
-10. git add . (untuk masuk file ke staging area)
-11. git log (untuk melihat log file perubahan)
-12. git log (-- nama file)
-13. git checkout (5 digit commit hash) -- (nama file)
+Perintah GIT :
+untuk megisi data pada git sebelum commit, setelah instal git pertama/awal
+git config --global user.name "affanul Hakim" 
+git config --global user.email "affanul@gmail" 
+
+git (melihat apakah git sudah aktif)
+git help (manual git)
+git init (membuat file repo, sesuai alamat folder repo)
+git status (untuk melihat status file git)
+git add . (menambah file ke staging area, yang belum tracking)
+git commit -m "keterangan kommit" (untuk kommit).
+git commit -am "Keterangan Komit" (untuk commit file yang telah di modifikasi)
+git branch (untuk melihat posi2 branch yang aktif)
+git branch (nama branch) (untuk menambah branch baru)
+git branch -d (nama branch) (untuk menghapus branch)
+git checkout (nama branch) (untuk berpindah posisi branch)
+git log --all --decorate --oneline --graph (melihat graph)
+alias graph="git log --all --decorate --oneline --graph" (untuk mempersingkat perintah)
+git log --(nama file) (menampilkan perubahan log pada suatu file)
+git log -3 (3 data log)
+git checkout (5 digit kode hash) --(nama file dan ekstensi) (mengembalikan file yang terhapus)
+
+GIT Remote :
+
+- git remote (Untuk melihat status remote)
+- git remote add origin (alamat repo di git) (untuk konek ke repo git yang akan kita upload/push data)
+- git remote rm (nama branch) (untuk menghapus remote)
+- git clone (alamat clode repo di github) (untuk clone dari repo ke komputer local)
+- git push (Untuk push data repo local ke remote github)
+- git remote -v (untuk melihat alamat clone pada git repo)
+- git config --list (untuk melihat data user & email pada git)
+- git fetch (untuk melihat apakah objek terdapat perubahan/conflick)
+- git pull (untuk update dari repo github ke repo lokal)
+- git config core.autocrlf false/true (apabila terjadi error ganti ke false, untuk mengaktifkan ubah ke true )  
+      contoh error : The file will have its original line endings in your working directory. warning: LF will be replaced by CRLF in Gemfile.
+      sumber https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important
+
+Git Upload dari local ke remote :
+
+- git push -u origin master (untuk push data dari local ke repo git)
+- git push -f -u origin master (untuk push data dari local ke repo git apabila terjadi error)
