@@ -1,2 +1,2 @@
 # Perintah-Dasar-Git
-Perintah dasar GIT
+Perintah dasar pada GIT yang harus diketahui
