@@ -1,7 +1,7 @@
 Perintah GIT :
 untuk megisi data pada git sebelum commit, setelah instal git pertama/awal
-git config --global user.name "affanul Hakim" 
-git config --global user.email "affanul@gmail" 
+git config --global user.name "nama akun" 
+git config --global user.email "alamat email" 
 
 git (melihat apakah git sudah aktif)
 git help (manual git)
@@ -37,5 +37,6 @@ GIT Remote :
 
 Git Upload dari local ke remote :
 
-- git push -u origin master (untuk push data dari local ke repo git)
+- git push -u origin master (untuk push data dari local ke repo git pertama kali)
 - git push -f -u origin master (untuk push data dari local ke repo git apabila terjadi error)
+- git push (update dari local ke github)
