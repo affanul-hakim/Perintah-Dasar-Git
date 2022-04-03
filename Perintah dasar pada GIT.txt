@@ -55,3 +55,10 @@ Membuat Remote dari local ke Github
 - ketikan perintah : git remote add origin (alamat repo di github)
 - ketik git push -u origin master
 
+File repo di github berubah karena ada teman yg commit baru tapi di local tidak berubah, maka terjadi conflict
+- git fetch (untuk mengambil dan cek perubahan di git remote commit sudah sampai mana)
+- git status untuk melihat commit di repo remote
+- graph untuk cek commit
+- git pull (untuk ambil commit dari remote git ke local)
+- pilih yang mana perubahan yang digunakan kemudian hapus marker git 
+- git push (untuk push commit perubahan repo ke github)
