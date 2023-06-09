@@ -20,6 +20,10 @@ git log --(nama file) (menampilkan perubahan log pada suatu file)
 git log -3 (3 data log)
 git checkout (5 digit kode hash) --(nama file dan ekstensi) (mengembalikan file yang terhapus)
 
+- Git Merge (menggabung branch cabang ke master)
+git merge (nama branch)
+
+
 GIT Remote :
 
 - git remote (Untuk melihat status remote)
