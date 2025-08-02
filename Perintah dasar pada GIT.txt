@@ -20,12 +20,14 @@ git log --(nama file) (menampilkan perubahan log pada suatu file)
 git log -3 (3 data log)
 git checkout (5 digit kode hash) --(nama file dan ekstensi) (mengembalikan file yang terhapus)
 
+Branch
 - Git Merge (menggabung branch cabang ke master)
-git merge (nama branch)
-
+  git merge (nama branch)
+  git branch --merged (untuk mengetahui branch yang sudah merge)
+  git branch -d (nama branch) hapus branch yang sudah merge
+  git branch -d (nama branch) hapus branch tanpa merge
 
 GIT Remote :
-
 - git remote (Untuk melihat status remote)
 - git remote add origin (alamat repo di git) (untuk konek ke repo git yang akan kita upload/push data)
 - git remote rm (nama branch) (untuk menghapus remote)
