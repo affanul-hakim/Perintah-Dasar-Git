@@ -22,7 +22,7 @@ git checkout (5 digit kode hash) --(nama file dan ekstensi) (mengembalikan file 
 
 Branch
 * Fast forward (direct merge)
-* Three way Merge (beda cabang)
+* Three way Merge - recursive (beda cabang)
 - Git Merge (menggabung branch cabang ke master)
   git merge (nama branch)
   git branch --merged (untuk mengetahui branch yang sudah merge)
