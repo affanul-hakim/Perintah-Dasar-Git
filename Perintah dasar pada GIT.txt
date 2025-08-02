@@ -21,6 +21,8 @@ git log -3 (3 data log)
 git checkout (5 digit kode hash) --(nama file dan ekstensi) (mengembalikan file yang terhapus)
 
 Branch
+* Fast forward (direct merge)
+* Three way Merge (beda cabang)
 - Git Merge (menggabung branch cabang ke master)
   git merge (nama branch)
   git branch --merged (untuk mengetahui branch yang sudah merge)
