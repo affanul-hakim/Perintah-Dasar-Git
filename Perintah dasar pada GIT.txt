@@ -28,6 +28,7 @@ Branch
   git branch --merged (untuk mengetahui branch yang sudah merge)
   git branch -d (nama branch) hapus branch yang sudah merge
   git branch -d (nama branch) hapus branch tanpa merge
+  git revert <commit_hash> kembali ke merge yang dibatalkan
 
 GIT Remote :
 - git remote (Untuk melihat status remote)
