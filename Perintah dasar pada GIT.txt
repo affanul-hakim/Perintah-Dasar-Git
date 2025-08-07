@@ -24,6 +24,7 @@ Branch
 * Fast forward (direct merge)
 * Three way Merge - recursive (beda cabang)
 - Git Merge (menggabung branch cabang ke master)
+- git branch (nama branch) membuat branch baru
   git merge (nama branch)
   git branch --merged (untuk mengetahui branch yang sudah merge)
   git branch -d (nama branch) hapus branch yang sudah merge
