@@ -56,13 +56,15 @@ Membuat Remote dari Github ke local
 - git clone (alamat remote github yang akan di clone)
 
 
-* Membuat Remote dari local ke Github
+*** Membuat Remote dari local ke Github ***
 - buat folder yang akan kita jadikan repo maasuk ke folder dengan git bash 
 - buat repo git, ketikan perintah ( git init )
 - masuk ke website github, buat repo baru dengan nama yang sama dengan folder repo local
 - initialize tidak di ceklist, tidak pake file readme
 - ketikan perintah : git remote add origin (alamat repo di github)
 - ketik git push -u origin master
+- git push (update dari local ke github remote)
+
 
 File repo di github berubah karena ada teman yg commit baru tapi di local tidak berubah, maka terjadi conflict
 - git fetch (untuk mengambil dan cek perubahan di git remote commit sudah sampai mana)
