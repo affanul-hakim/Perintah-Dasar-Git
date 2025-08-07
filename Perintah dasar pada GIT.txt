@@ -44,6 +44,13 @@ GIT Remote :
       contoh error : The file will have its original line endings in your working directory. warning: LF will be replaced by CRLF in Gemfile.
       sumber https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important
 
+Github -> Lokal
+1. Buat Repo di Github
+2. git clone (alamat https repo di github)
+3. git push -u origin master (untuk push data dari local ke repo git pertama kali)
+4. git push (update dari local ke github)
+
+
 Git Upload dari local ke remote :
 
 - git push -u origin master (untuk push data dari local ke repo git pertama kali)
