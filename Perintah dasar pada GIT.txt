@@ -47,8 +47,8 @@ GIT Remote :
 *** Membuat Git Remote ke local ***
 - Buat repositori baru dengan redme di Github (git remote)
 - copy alamat repo di github
-- Plih folder yang akan kita jadikan cloning dari git remote
-- git clone (paste alamat remote github yang sebelumnya sudah di copy)
+- Plih folder yang akan kita jadikan cloning dari git remote, jalankan gitbash here.
+- git clone (paste alamat remote github yang sebelumnya sudah di copy sebelumnya)
 - git push (update dari local ke github remote)
 
 
