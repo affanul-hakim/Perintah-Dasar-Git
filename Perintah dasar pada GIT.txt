@@ -50,13 +50,13 @@ Git Upload dari local ke remote :
 - git push -f -u origin master (untuk push data dari local ke repo git apabila terjadi error)
 - git push (update dari local ke github)
 
-Membuat Remote dari Github ke local
+Membuat Git Remote ke local
 - Buat repositori baru dengan redme
 - masuk ke gitbash plih folder yang akan kita jadikan cloning github, ketikan perintah :
 - git clone (alamat remote github yang akan di clone)
 
 
-*** Membuat Remote dari local ke Github ***
+*** Membuat Git local ke Git Remote ***
 - buat folder yang akan kita jadikan repo maasuk ke folder dengan git bash 
 - buat repo git, ketikan perintah ( git init )
 - masuk ke website github, buat repo baru dengan nama yang sama dengan folder repo local
