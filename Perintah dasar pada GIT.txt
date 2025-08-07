@@ -44,15 +44,9 @@ GIT Remote :
       contoh error : The file will have its original line endings in your working directory. warning: LF will be replaced by CRLF in Gemfile.
       sumber https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important
 
-Git Upload dari local ke remote :
-
-- git push -u origin master (untuk push data dari local ke repo git pertama kali)
-- git push -f -u origin master (untuk push data dari local ke repo git apabila terjadi error)
-- git push (update dari local ke github)
-
-Membuat Git Remote ke local
-- Buat repositori baru dengan redme
-- masuk ke gitbash plih folder yang akan kita jadikan cloning github, ketikan perintah :
+*** Membuat Git Remote ke local ***
+- Buat repositori baru dengan redme di Github (git remote)
+- Plih folder yang akan kita jadikan cloning dari git remote
 - git clone (alamat remote github yang akan di clone)
 
 
@@ -62,8 +56,10 @@ Membuat Git Remote ke local
 - masuk ke website github, buat repo baru dengan nama yang sama dengan folder repo local
 - initialize tidak di ceklist, tidak pake file readme
 - ketikan perintah : git remote add origin (alamat repo di github)
-- ketik git push -u origin master
+- ketik git push -u origin master (untuk push data dari local ke repo git remote pertama kali)
 - git push (update dari local ke github remote)
+
+- git push -f -u origin master (untuk push data dari local ke repo git apabila terjadi error)
 
 *** Cek apa ada perubahan  git remote  *** 
 - git fetch (untuk mengambil dan cek perubahan di git remote commit sudah sampai mana)
