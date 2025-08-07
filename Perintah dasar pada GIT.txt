@@ -67,4 +67,4 @@ Membuat Remote dari Github ke local
 
 *** Cek apa ada perubahan  git remote  *** 
 - git fetch (untuk mengambil dan cek perubahan di git remote commit sudah sampai mana)
-- git pull (untuk ambil commit dari git remote ke local)
+- git pull (untuk ambil commit perubahan dari git remote ke local)
